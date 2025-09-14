@@ -1,0 +1,28 @@
+# Apple Music-Style Automix Requirements
+# Advanced audio processing for professional DJ-quality mixing
+
+# Core Audio Processing
+librosa>=0.10.0          # Audio analysis, tempo detection, beat tracking
+soundfile>=0.12.0        # High-quality audio file I/O
+numpy>=1.21.0            # Numerical computing and array operations
+scipy>=1.7.0             # Signal processing, filtering, and advanced math
+
+# Audio Enhancement Features
+audioread>=3.0.0         # Fallback audio reading for various formats
+
+# Optional: For enhanced audio processing (uncomment if needed)
+# pydub>=0.25.1          # Audio manipulation and format conversion
+# sox>=1.4.1             # Advanced audio processing toolkit
+# resampy>=0.4.0         # High-quality audio resampling
+
+# Development and Logging
+# tqdm>=4.64.0           # Progress bars for long operations
+# matplotlib>=3.5.0      # Audio visualization (optional)
+
+# Notes:
+# - librosa 0.10.0+ required for advanced spectral features
+# - scipy 1.7.0+ needed for signal processing functions
+# - numpy 1.21.0+ for array operations and compatibility
+# - soundfile for WAV/MP3/FLAC support
+#
+# Install with: pip install -r requirements.txt
